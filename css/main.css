@@ -3,12 +3,105 @@
     padding: 0px;
 }
 
-.container {
+#container {
     width: 960px;
     margin: auto;
+    font-family: EB+Garamond, 'Open sans', serif;
 }
 
-.menubar {
+
+/*
+.body  {
+    background-image:url(world_image).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+*/
+
+
+#sidebar {
+    width: 300px;
+    float: left;
+    background-color: #BEBFC2;
+    padding: 5px;
+    height: 1120px;
+    
+}
+
+#sidebar h2 {
+    font-size: 20px;
+    font-family: 'Open sans', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 16px;
+}/*....h2 margin bottom linked to top padding of sidebar/to be reviewed later....*/
+
+/*#sidebar h3 {
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    color: black;*/
+}
+
+#sidebar p {
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    margin-bottom: 16px
+}
+
+#sidebar ul {
+    font-size: 14px;
+    font-family:'Open sans', sans-serif;
+    color: black;
+    list-style-position: inside;
+}*/
+
+#sidebar img {
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+/*#sidebar a {
+    text-decoration: none;
+    color:#;
+}*/
+
+/*#sidebar a:hover {
+    color:#;
+
+}*/
+
+
+/*..................................sidebar ends here....................................*/
+
+
+#main { 
+    background-color:#d9f2e6;/*:teal;*/
+	padding:5px;
+	width: 630px;
+	float: right;
+	
+	height: 1120px;
+    
+}
+
+#main p{
+   	margin: 25px 25px;
+	text-align: left;
+	font-size: 20px;
+    font-family: 'Open sans', sans-serif; 
+    color: black;
+
+    
+}
+
+/*...................................main ends here......................................*/
+
+
+
+
+/*.menubar {
     text-align: center;
 }
 
@@ -18,13 +111,79 @@
     padding: 10px;
     margin: 0px 50px;
     color:black;
-}
+}*/
 
-.menubar li:hover {
-    color: white;
-    background-color: black;
-    font-size: 25px;
+
+/*.banner {
         
+}*/
+
+
+
+
+
+
+.navigation {
+    position: static;
 }
 
-/*..............................menubar ends here...............................*/
+.navigation ul {
+    display: table;
+    margin: 20px 0px;
+    width: 100%; 
+}
+
+.navigation ul li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    width: 320px;
+    color: black;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    background-color: #B5BAC9;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    background-color: #B5BAC9;
+    vertical-align: top;
+    font-size: 24px;
+}
+
+.navigation ul li:hover {
+    color: navy;
+    background-color: white;
+}
+
+
+/*..............................navigation bar ends here...............................*/
+
+
+
+#footer { 
+	padding: 5px; 
+	background:#DDDDDD;
+	height: 75px;
+	margin: 0;
+	text-align: center;
+	font-size: 13px;
+    font-family: Open sans, sans-serif;
+    color: blue;
+}
+
+
+.clearfloat { 
+	clear:both;
+    height:5;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+/*....................................footer ends here.............................*/
+
+
+
