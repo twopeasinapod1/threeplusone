@@ -6,50 +6,54 @@
 #container {
     width: 960px;
     margin: auto;
-    font-family: EB+Garamond, 'Open sans', serif;
+    font-family: Cormorant+Garamond|Nixie+One, 'Open sans', serif;
 }
 
-
-/*
-.body  {
-    background-image:url(world_image).jpeg);
-    background-position: center;
-    background-size: cover;
-    background-repeat:no-repeat;
+.href {
+    text-decoration: underline ;
+    
 }
-*/
+
+a:hover {
+    color: blue;
+    
+}
+
 
 
 #sidebar {
     width: 300px;
     float: left;
     background-color: #BEBFC2;
-    padding: 5px;
-    height: 1120px;
+    padding: 15px;
+    height: 1050;
     
 }
 
-#sidebar h2 {
+/*#sidebar h2 {
     font-size: 20px;
     font-family: 'Open sans', sans-serif;
     color: black;
     text-align: center;
     margin-bottom: 16px;
-}/*....h2 margin bottom linked to top padding of sidebar/to be reviewed later....*/
+}*//*....h2 margin bottom linked to top padding of sidebar/to be reviewed later....*/
 
 /*#sidebar h3 {
     font-size: 14px;
     font-family: 'Open sans', sans-serif;
-    color: black;*/
-}
+    color: black;
+}*/
 
-#sidebar p {
+/*#sidebar p {
     font-size: 14px;
     font-family: 'Open sans', sans-serif;
     margin-bottom: 16px
-}
+}*/
 
 #sidebar ul {
+    border: 0px;
+    padding: 10px;
+    margin: 0px 25px;
     font-size: 14px;
     font-family:'Open sans', sans-serif;
     color: black;
@@ -58,8 +62,9 @@
 
 #sidebar img {
     display: block;
-    margin: auto;
-    margin-bottom: 0px;
+    margin: 0px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
 }
 
 /*#sidebar a {
@@ -76,24 +81,27 @@
 /*..................................sidebar ends here....................................*/
 
 
-#main { 
-    background-color:#d9f2e6;/*:teal;*/
+#main {
 	padding:5px;
-	width: 630px;
+	margin: 10px 10px;
+	width: 600px;
 	float: right;
-	
-	height: 1120px;
+	height: 1000px;
     
 }
 
 #main p{
-   	margin: 25px 25px;
+    margin-bottom:30px;
+    margin-top:#;
+   	/*margin: 25px 25px;*/
+   	padding:5px;
+   	border: 25px;
 	text-align: left;
 	font-size: 20px;
     font-family: 'Open sans', sans-serif; 
     color: black;
+    text-indent: 50px
 
-    
 }
 
 /*...................................main ends here......................................*/
@@ -160,6 +168,14 @@
 
 
 /*..............................navigation bar ends here...............................*/
+
+.video {
+    background-color: #dddddd;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding: 30px;
+    border: 15px solid black;
+}
 
 
 
